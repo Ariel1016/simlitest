@@ -36,5 +36,10 @@ urlpatterns = [
     path('desert2/', views.desert2, name="desert2"),
     path('desert3/', views.desert3, name="desert3"),
     # 영화 결과 페이지
+    path('act/', views.act, name="act"),
+    path('ani/', views.ani, name="ani"),
+    path('com/', views.com, name="com"),
+    path('hor/', views.hor, name="hor"),
     path('rom/', views.rom, name="rom"),
+
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

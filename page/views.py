@@ -40,6 +40,17 @@ def desert3(request):
     return render(request,'desert3.html',{'desert3':desert3})
 
 # 영화 결과 페이지
+def act(request):
+    return render(request,'act.html',{'act':act})    
+
+def ani(request):
+    return render(request,'ani.html',{'ani':ani})    
+
+def com(request):
+    return render(request,'com.html',{'com':com})    
+
+def hor(request):
+    return render(request,'hor.html',{'hor':hor})    
+
 def rom(request):
     return render(request,'rom.html',{'rom':rom})    
-
